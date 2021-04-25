@@ -30,6 +30,7 @@ private void OnControllerColliderHit(ControllerColliderHit hit)
         return;
 
     }
+
     else
     {
          push=true;

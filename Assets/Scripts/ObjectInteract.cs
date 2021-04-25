@@ -16,7 +16,7 @@ public class ObjectInteract : MonoBehaviour
     {
         if (other.tag=="Player")
         {
-            inventario.Cantidad= inventario.Cantidad + 1;
+        inventario.Cantidad= inventario.Cantidad + 1;
         Destroy(gameObject);
         }
     }

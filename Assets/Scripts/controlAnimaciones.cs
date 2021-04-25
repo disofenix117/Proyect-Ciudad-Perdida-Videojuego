@@ -25,7 +25,7 @@ public class controlAnimaciones : MonoBehaviour
                animator.SetBool("caminar", false);
 
         }
-        if(Input.GetKey("e"))
+        if(Input.GetKey("q"))
         {
             animator.SetTrigger("recoger");
         }
